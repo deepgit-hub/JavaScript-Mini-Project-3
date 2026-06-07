@@ -7,7 +7,7 @@
 
 body{
     min-height:100vh;
-    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    background:linear-gradient(135deg,#1d55d9,#43d010,#e83a09);
     padding:40px;
 }
 
@@ -17,7 +17,7 @@ body{
     background:white;
     padding:25px;
     border-radius:20px;
-    box-shadow:0 15px 40px rgba(0,0,0,0.3);
+    box-shadow:0 15px 40px rgba(111, 213, 15, 0.3);
 }
 
 form table{
