@@ -1,7 +1,11 @@
 <html>
+    <link rel="stylesheet" href="style.css">
     <body>
         
         <center>
+            <h1 style="color:white;margin-bottom:20px;">
+    🎓 Student Registration Form
+</h1>
         <div id="container">
             
                 <form>
@@ -26,21 +30,22 @@
                 <tr>
                     <th>Course</th>
                     <td><select id="course">
-                        <option>Js</option>
+                        <option>JavaScript</option>
                         <option>Java</option>
                         <option>Python</option>
+                        <option>c++</option>
+                        <option>c</option>
+                        <option>Go</option>
                     </select></td>
                 </tr>
                 <tr>
                     <th>Email</th>
                     <td><input type="email" placeholder="enter email here" id="email"></td>
                 </tr>
-                <tr>
-                  
-                    <th><button onclick="save()" type="button">Save Data</button></th> 
-                </tr>
+               
             </table>
             </form>
+            <button onclick="save()" type="button">Save Data</button>
             </div>
             
            <table id="task" border="1" align="center">
