@@ -6,6 +6,7 @@ This project allows users to enter student details and dynamically display them 
 
 ---
 # 🌟 Live Demo
+https://deepgit-hub.github.io/JavaScript-Mini-Project-3/
 
 ## 🚀 Features
 
