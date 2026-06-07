@@ -1,8 +1,9 @@
 <html>
     <body>
-        <script src="script.js"></script>
+        
+        <center>
         <div id="container">
-            <center>
+            
                 <form>
             <table border="2">
                 <tr>
@@ -15,8 +16,12 @@
                 </tr>
                 <tr>
                     <th>Gender</th>
-                    <td><input type="radio" name="gen" id="gender">Male
-                    <input type="radio" name="gen">Fe Male</td>
+                    <td><select id="gender">
+                        <option>Male</option>
+                        <option>Fe Male</option>
+                    </select>
+                    </td>
+                    
                 </tr>
                 <tr>
                     <th>Course</th>
@@ -32,15 +37,24 @@
                 </tr>
                 <tr>
                   
-                    <th><button onclick="save()">Save Data</button></th> 
+                    <th><button onclick="save()" type="button">Save Data</button></th> 
                 </tr>
             </table>
             </form>
             </div>
-            <div id="data">
-                
-            </div>
+            
+           <table id="task" border="1" align="center">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+           </table>
+            
             </center>
-        
+        <script src="script.js"></script>
     </body>
 </html>
