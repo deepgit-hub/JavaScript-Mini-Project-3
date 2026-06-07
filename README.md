@@ -5,6 +5,7 @@ A simple Student Registration Form built using **HTML, CSS, and JavaScript**.
 This project allows users to enter student details and dynamically display them in a table.
 
 ---
+# 🌟 Live Demo
 
 ## 🚀 Features
 
