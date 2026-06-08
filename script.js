@@ -8,7 +8,7 @@ function save()
 {
     
     var row = document.createElement("tr")
-    row.innerHTML = "<td>"+n.value+"</td>"+"<td>"+a.value+"</td>"+"<td>"+g.value+"</td>"+"<td>"+c.value+"</td>"+"<td>"+e.value+"</td>"+"<td><button onclick=deleteitem(event)>Delete</button></td>"
+    row.innerHTML = "<td>"+n.value+"</td>"+"<td>"+a.value+"</td>"+"<td>"+g.value+"</td>"+"<td>"+c.value+"</td>"+"<td>"+e.value+"</td>"+"<td><button onclick=deleteitem(event)>Delete</button><button onclick=edititem(event)>Edit</button></td>"
     d.append(row)
 }
 function deleteitem(event)
