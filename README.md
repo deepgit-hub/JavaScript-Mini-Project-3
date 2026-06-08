@@ -1,28 +1,31 @@
 # 🎓 Student Registration Form
 
-A simple Student Registration Form built using **HTML, CSS, and JavaScript**.
+A dynamic Student Registration Form built using HTML, CSS, and JavaScript.
 
-This project allows users to enter student details and dynamically display them in a table.
+This project allows users to add, edit, and delete student records while practicing core JavaScript DOM manipulation concepts.
 
 ---
-# 🌟 Live Demo
-https://deepgit-hub.github.io/JavaScript-Mini-Project-3/
+## 👨‍💻Live DEMO
 
 ## 🚀 Features
 
 ✅ Add Student Records
 
-✅ Display Student Details in a Table
+✅ Display Student Information in a Table
+
+✅ Edit Existing Student Records
 
 ✅ Delete Student Records
 
-✅ Dynamic DOM Manipulation
+✅ Form Validation
 
-✅ Responsive and Modern UI
+✅ Dynamic DOM Updates
+
+✅ Modern Responsive UI
 
 ---
 
-## 📋 Student Information Collected
+## 📋 Student Details Collected
 
 * Name
 * Age
@@ -47,12 +50,14 @@ https://deepgit-hub.github.io/JavaScript-Mini-Project-3/
 * createElement()
 * innerHTML
 * append()
-* onclick Events
-* Dynamic Table Row Creation
 * Event Handling
 * event.target
 * parentElement
-* remove()
+* children
+* textContent
+* Form Input Handling
+* Dynamic Table Row Creation
+* Dynamic Data Updates
 
 ---
 
@@ -60,11 +65,13 @@ https://deepgit-hub.github.io/JavaScript-Mini-Project-3/
 
 Through this project, I learned how to:
 
-* Collect user input from forms
-* Dynamically create and append table rows
+* Collect and validate user input
+* Dynamically create table rows
 * Display structured data on a webpage
-* Delete records using JavaScript
-* Build a simple CRUD-style application
+* Edit existing records
+* Delete records dynamically
+* Traverse the DOM using parentElement and children
+* Build a mini CRUD-style application using JavaScript
 
 ---
 
@@ -82,12 +89,12 @@ Student-Registration-Form/
 
 ## 🌟 Future Improvements
 
-* Edit Student Records
 * Search Students
-* Validation for Form Inputs
 * Local Storage Support
-* Dark Mode
+* Export Data
 * Student Count Dashboard
+* Data Filtering
+* Dark Mode
 
 ---
 
@@ -97,4 +104,6 @@ Deepak
 
 Frontend Development Journey 🚀
 
-Mini Project #3 of my JavaScript Learning Series.
+JavaScript Mini Project #3
+
+Building strong fundamentals instead of relying on copy-paste solutions.
