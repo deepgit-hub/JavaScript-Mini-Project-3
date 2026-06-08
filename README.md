@@ -6,7 +6,7 @@ This project allows users to add, edit, and delete student records while practic
 
 ---
 ## 👨‍💻Live DEMO
-
+https://deepgit-hub.github.io/JavaScript-Mini-Project-3/
 ## 🚀 Features
 
 ✅ Add Student Records
